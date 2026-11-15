@@ -1,0 +1,16 @@
+{
+  "_id": { "$oid": "6735f0a1c2b4e8a1d0f1a2b3" },
+  "userId": 42,
+  "displayName": "Elif",
+  "userType": "LOCAL",
+  "status": "ACTIVE",
+  "gender": "FEMALE",
+  "completed": true,
+  "interests": [
+    { "id": 1, "name": "Football", "category": "SPORT" },
+    { "id": 3, "name": "Language exchange", "category": "LANGUAGE" }
+  ],
+  "spokenLanguages": [ { "code": "tr", "level": "C2" }, { "code": "en", "level": "C1" } ],
+  "learningLanguages": ["es"],
+  "skills": ["guitar"]
+}
