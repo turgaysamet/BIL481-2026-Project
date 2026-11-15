@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:campusbridge;MODE=PostgreSQL
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+campusbridge:
+  auth:
+    institutional-domain: etu.edu.tr
+    verification-link-base: http://localhost/verify

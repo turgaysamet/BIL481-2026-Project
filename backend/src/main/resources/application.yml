@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: campusbridge
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/campusbridge}
+    username: ${DB_USER:campusbridge}
+    password: ${DB_PASSWORD:campusbridge}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+server:
+  port: 8080
+
+campusbridge:
+  auth:
+    institutional-domain: etu.edu.tr
+    verification-link-base: ${APP_URL:http://localhost:5173}/verify
